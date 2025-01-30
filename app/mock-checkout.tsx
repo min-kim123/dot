@@ -73,9 +73,8 @@ export default function MockCheckout() {
             <span className="mr-2 font-bold">afterpay</span>
             Pay in 4 interest-free payments
           </Button>
-          <Button className="w-full bg-[#161616] hover:bg-[#333333] text-white" size="lg">
-            <span className="mr-2 text-2xl font-bold">•</span>
-            Pay with Dot
+          <Button className="font-semibold w-full bg-purple-700 hover:bg-purple-900 text-white" size="lg">
+            Pay with dot to earn 330 points with this order
           </Button>
         </CardContent>
         <CardFooter>
@@ -88,4 +87,3 @@ export default function MockCheckout() {
     </div>
   )
 }
-
